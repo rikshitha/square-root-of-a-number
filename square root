@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+ 
+    int x;  
+    float res;  
+    printf (" Enter any number to get the square root: ");  
+    scanf (" %d", &x);  
+     
+    res = sqrt(x);   
+    printf (" \n The square root of %d is: %.2lf", x, res);  
+  
+    return 0;     
+}  
